@@ -3,7 +3,7 @@ docker wemo
 
 A docker container to run [ouimeaux](https://github.com/iancmcc/ouimeaux) server.
 
-Usage
+usage
 ---
 
 	$ make container

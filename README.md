@@ -3,9 +3,11 @@ docker wemo
 
 A docker container to run [ouimeaux](https://github.com/iancmcc/ouimeaux) server.
 
-Run it with
+Usage
+---
 
-	docker --net="host" --name wemo wemo
+	$ make container
+	$ make run
 
 *NOTE* container requires host networking for wemo device UDP discovery on random ports.
 
